@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply bg-secondary text-center px-1 py-1 rounded-md capitalize font-bold ease-in duration-200 border border-secondary hover:bg-transparent
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    scroll-behavior: smooth;
+    color-scheme: dark;
+    scrollbar-width: none;
+    
+}
+
+body {
+    position: relative; /* Ensure proper stacking context */
+    background-image: url("./assets/grunge-effect/bg-dirt.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    overflow-y: scroll;   
+    font-family: Proxima Nova,sans-serif;
+    
+}
+/* Add styles to the scrollbar track if needed */
+body::-webkit-scrollbar {
+    display: none; 
+  }
+  
+/* Create an overlay with a background color */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right top,#050816,#060d1a,#06121d,#061620,#051923);
+    opacity: .7;
+    z-index: -1;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 20px;
+}
+.container1{
+    max-width: 1150px;
+    margin: auto;
+    padding: 0 20px;
+}
+.nav-link.active {
+    color: #ff7d3b; /* Active link color */
+}
+

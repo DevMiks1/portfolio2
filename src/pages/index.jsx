@@ -1,0 +1,6 @@
+export {Home} from "./Home"
+export {About} from "./About"
+export {Tech} from "./Tech"
+export {Project} from "./Project"
+export {Contact} from "./Contact"
+export {PageNotFound} from "./PageNotFound"
