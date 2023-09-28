@@ -15,6 +15,7 @@ module.exports = {
         red: "#FF6347",
         yellow: "#F7DF1E",
         green: "#3FA037",
+        navbar: "#09161D"
 
         
         

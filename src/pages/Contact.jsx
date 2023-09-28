@@ -1,6 +1,8 @@
 import { useForm } from 'react-hook-form';
 import { useState } from 'react';
 import earth from "../assets/contact-img/earth.png"
+// import css
+import "./css/contact.css/mobile.css"
 
 export const Contact = () => {
   const { register, trigger, formState:{errors} } = useForm();
@@ -21,7 +23,7 @@ export const Contact = () => {
     <section id='contact' className="py-32 flex justify-center">
       <div className='container grid justify-center lg:grid-cols-2'>
         {/* contact */}
-        <div className="border-primary border-2 p-2 rounded-lg max-w-xl mx-10 px-5 order-2 sm:order-1 ">
+        <div className="contact border-primary border-2 p-2 rounded-lg max-w-xl mx-10 px-5 order-2 sm:order-1 ">
           <h1 className="text-center text-3xl font-bold text-primary py-5">
               CONTACT ME TO GET STARTED
           </h1>
@@ -90,7 +92,7 @@ export const Contact = () => {
           </form>
         </div>
         {/* global image */}
-        <div className='flex justify-center items-center order-1 sm:order-2'>
+        <div className='flex justify-center items-center order-1 sm:order-2 pb-7'>
           <img src={earth} alt="global" />
         </div>
       </div>
