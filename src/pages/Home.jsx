@@ -15,10 +15,10 @@ export const Home = () => {
               <p className="mb-10 text-[20px] md:text-[16px] lg:text-[20px]">Passionate Full-Stack Developer dedicated to elevating digital experiences. Crafting innovative solutions to enhance user engagement. </p>
               <div className="flex gap-7 justify-center md:justify-start pb-10">
                 <div>
-                  <a href="https://drive.google.com/uc?export=download&id=1ZVV-tFGrVszkd25HkAtvQZmMRsVSveJB" download>
+                  <a href="https://drive.google.com/uc?export=download&id=1wOysqFOFKIFrb_KR4lp9M0mpNrkpoR3j" download>
                     <button className="border border-primary bg-primary text-white px-6 py-2 rounded-lg font-bold hover:bg-transparent hover:text-secondary">Resume
                     </button>
-                  </a>
+                  </a>  
                 </div>
               </div>
                 
