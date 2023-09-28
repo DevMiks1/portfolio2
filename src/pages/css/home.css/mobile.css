@@ -1,7 +1,6 @@
 @media (max-width: 499px) and (min-width: 370px) {
     .home{
-        padding-top: 70px;
-        padding-bottom: 30px;
+        padding: 80px 0;
     }
     .home .astraunot{
         display: none;
