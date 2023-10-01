@@ -6,7 +6,7 @@ export const About = () => {
     <div id="about">
       {/* Start of know-me section */}
       <section className="py-20">
-        <div className="container1 grid  ">
+        <div className="container grid  ">
           <div> 
             <h3 className="uppercase text-[18px] md:text-[20px] text-secondary" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">Introduction and Summary</h3>
             <h2 className="text-[50px] py-7 font-bold" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">Overview.</h2>

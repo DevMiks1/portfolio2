@@ -69,22 +69,22 @@ const KodeledgerComponent = () => {
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center z-50 overflow-y-auto ">
           <div className="bg-semiSecondary p-4 pt-72 text-white shadow-lg min-h-screen w-screen lg:pt-[34rem] sm:px-24 lg:px-24 xl:pt-12">
-            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 sm:gap-5">
               <div className="col-span-2 py-3">
                 <h2 className="py-6 font-bold text-[20px]">Kodeledger</h2>
                 {/* Carousel import */}
                 <Carousel showThumbs={false} autoPlay interval={1500} stopOnHover={false} showStatus={false} showArrows={false} infiniteLoop>
                   {/* 1st image in the carousel */}
-                  <div>
-                    <img src={kodeledger} alt="" className="h-[300px] lg:h-[450px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={kodeledger} alt="" className="w-full"  />
                   </div>
                   {/* 2nd image in the carousel */}
-                  <div>
-                    <img src={kodeledger1} alt="" className="h-[300px] lg:h-[450px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={kodeledger1} alt="" className=" w-full"  />
                   </div>
                   {/* 3rd image in the carousel */}
-                  <div>
-                    <img src={kodeledger2} alt="" className="h-[300px] lg:h-[450px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={kodeledger2} alt="" className="w-full"  />
                   </div>
                 </Carousel>
               </div>

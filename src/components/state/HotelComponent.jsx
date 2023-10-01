@@ -70,22 +70,22 @@ const HotelComponent = () => {
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center z-50 overflow-y-auto ">
           <div className="bg-semiSecondary p-4 pt-72 text-white shadow-lg min-h-screen w-screen lg:pt-[34rem]  sm:px-24 lg:px-24 xl:pt-12">
-            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5">
-              <div className="col-span-2 py-3">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 sm:gap-5">
+              <div className="col-span-2 py-3 h-auto">
                 <h2 className="py-6 font-bold text-[20px] text-white">Mikee's Hotel</h2>
                 {/* Carousel import */}
                 <Carousel showThumbs={false} autoPlay interval={1500} stopOnHover={false} showStatus={false} showArrows={false} infiniteLoop>
                 {/* 1st image in the carousel */}
-                  <div>
-                    <img src={hotel} alt="" className="h-[300px] lg:h-[450px] w-full "  />
+                  <div className="max-w-full h-auto">
+                    <img src={hotel} alt="" className=" w-full "  />
                   </div>
                   {/* 2nd image in the carousel */}
-                  <div>
-                    <img src={hotel1} alt="" className="h-[300px] lg:h-[450px] w-full "  />
+                  <div className="max-w-full h-auto">
+                    <img src={hotel1} alt="" className=" w-full"  />
                   </div>
                   {/* 3rd image in the carousel */}
-                  <div>
-                    <img src={hotel2} alt="" className="h-[300px] lg:h-[450px] w-full "  />
+                  <div className="max-w-full h-auto">
+                    <img src={hotel2} alt="" className="  w-full "  />
                   </div>
                 </Carousel>
               </div>
@@ -94,17 +94,17 @@ const HotelComponent = () => {
                 <button 
                   className="absolute top-6 right-6 p-2 text-red-500 lg:top-6 lg-right-16" onClick={closeModal}><i className="fa-solid fa-x"></i>
                 </button>
-                <h2 className="pt-[5px] pb-5 font-bold text-[20px] lg:pt-[80px]">Project Information</h2>
-                <h3><span className="font-bold">Category:</span> Web design</h3>
+                <h2 className="pt-[5px] pb-5 font-bold text-[20px] lg:pt-[80px] xl:text-[20px]">Project Information</h2>
+                <h3 className=""><span className="font-bold ">Category:</span> Web design</h3>
                 <div className="flex gap-2 text-sm py-3">
-                  <p className="font-bold text-[16px]">Tech stacks:</p>
+                  <p className="font-bold">Tech stacks:</p>
                   <p className="text-red">#html</p>
                   <p className="text-lightBlue">#css</p>
                 </div>
                 {/* repository link */}
-                <h3><span className="font-bold">Repository: </span><a href="https://github.com/DevMiks1/Hotel" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary"><span className="block pb-3">https://github.com/DevMiks1/Hotel</span></a></h3>
+                <h3><span className="font-bold">Repository: </span><a href="https://github.com/DevMiks1/Hotel" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary"><span className="block pb-3 2xl:text-[23px]">https://github.com/DevMiks1/Hotel</span></a></h3>
                 {/* project url */}
-                <h3><span className="font-bold">Project Url: </span> <a href="https://mikeeshotel.netlify.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary"><span className="block">https://mikeeshotel.netlify.app/</span></a></h3>
+                <h3><span className="font-bold">Project Url: </span> <a href="https://mikeeshotel.netlify.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary"><span className="block 2xl:text-[23px]">https://mikeeshotel.netlify.app/</span></a></h3>
                 {/* description */}
                 <p className="pt-10 pb-5">A static hotel website serves as the virtual gateway designed to provide guests with a seamless, delightful experience by offering comprehensive information about accommodations, amenities, and services. It aims to captivate and inform potential guests, enticing them to choose your hotel for their stay. Here are some essential elements that contribute to the appeal and effectiveness of your static hotel website.</p>
               </div>

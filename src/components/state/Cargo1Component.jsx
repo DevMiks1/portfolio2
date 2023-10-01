@@ -71,20 +71,20 @@ const Cargo1Component = () => {
           <div className="bg-semiSecondary p-4 pt-72 text-white shadow-lg min-h-screen w-screen lg:pt-[34rem] sm:px-24 lg:px-24 xl:pt-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-3">
               <div className="col-span-2 py-3">
-                <h2 className="py-6 font-bold text-[20px]">CarGo Mini 1</h2>
+                <h2 className="py-6 font-bold text-[20px] text-white 2xl:text-[30px]">CarGo Mini 1</h2>
                 {/* Carousel import */}
                 <Carousel showThumbs={false} autoPlay interval={1500} stopOnHover={false} showStatus={false} showArrows={false} infiniteLoop>
                   {/* 1st image in the carousel */}
-                  <div>
-                    <img src={cargo} alt="" className="h-[300px] lg:h-[460px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={cargo} alt="" className="w-full"  />
                   </div>
                   {/* 2nd image in the carousel */}
-                  <div>
-                    <img src={cargo1} alt="" className="h-[300px] lg:h-[460px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={cargo1} alt="" className="w-full"  />
                   </div>
                   {/* 3rd image in the carousel */}
-                  <div>
-                    <img src={cargo2} alt="" className="h-[300px] lg:h-[460px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={cargo2} alt="" className="w-full"  />
                   </div>
                 </Carousel>
               </div>

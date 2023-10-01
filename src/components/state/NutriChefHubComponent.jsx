@@ -75,16 +75,16 @@ const NutriChefHubComponent = () => {
                 {/* Carousel import */}
                 <Carousel showThumbs={false} autoPlay interval={1500} stopOnHover={false} showStatus={false} showArrows={false} infiniteLoop>
                   {/* 1st image in the carousel */}
-                  <div>
-                    <img src={nutriChefHub} alt="" className="h-[300px] lg:h-[460px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={nutriChefHub} alt="" className="w-full"  />
                   </div>
                   {/* 2nd image in the carousel */}
-                  <div>
-                    <img src={nutriChefHub1} alt="" className="h-[300px] lg:h-[460px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={nutriChefHub1} alt="" className="w-full"  />
                   </div>
                   {/* 3rd image in the carousel */}
-                  <div>
-                    <img src={nutriChefHub2} alt="" className="h-[300px] lg:h-[460px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={nutriChefHub2} alt="" className="w-full"  />
                   </div>
                 </Carousel>
               </div>

@@ -75,16 +75,16 @@ const KeyCodesComponent = () => {
                 {/* Carousel import */}
                 <Carousel showThumbs={false} autoPlay interval={1500} stopOnHover={false} showStatus={false} showArrows={false} infiniteLoop>
                   {/* 1st image in the carousel */}
-                  <div>
-                    <img src={keyCodes} alt="" className="h-[300px] lg:h-[460px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={keyCodes} alt="" className="w-full"/>
                   </div>
                   {/* 2nd image in the carousel */}
-                  <div>
-                    <img src={keyCodes1} alt="" className="h-[300px] lg:h-[460px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={keyCodes1} alt="" className="w-full"/>
                   </div>
                   {/* 3rd image in the carousel */}
-                  <div>
-                    <img src={keyCodes2} alt="" className="h-[300px] lg:h-[460px] w-full"  />
+                  <div className="max-w-full h-auto">
+                    <img src={keyCodes2} alt="" className="w-full"/>
                   </div>
                 </Carousel>
               </div>
