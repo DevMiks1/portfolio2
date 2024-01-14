@@ -15,7 +15,7 @@ export const Home = () => {
               <p className="mb-10 text-[20px] md:text-[16px] lg:text-[20px]">Passionate Full-Stack Developer dedicated to elevating digital experiences. Crafting innovative solutions to enhance user engagement. </p>
               <div className="flex gap-7 justify-center md:justify-start pb-10">
                 <div>
-                  <a href="https://drive.google.com/uc?export=download&id=1wOysqFOFKIFrb_KR4lp9M0mpNrkpoR3j" download>
+                  <a href="https://drive.google.com/uc?export=download&id=1pwwxx5hL6KXZKRVbhuDBMWRM9pg8_8Wv" download>
                     <button className="border border-primary bg-primary text-white px-6 py-2 rounded-lg font-bold hover:bg-transparent hover:text-secondary">Resume
                     </button>
                   </a>  
